@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+spring-batch-jpa/mvnw
+spring-batch-jpa/mvnw.cmd
+*.properties
+spring-batch-jpa/.gitignore
+spring-batch-jpa/.mvn/wrapper/maven-wrapper.jar
+spring-batch-jpa/.mvn/wrapper/MavenWrapperDownloader.java
+spring-batch-jpa/.mvn/
