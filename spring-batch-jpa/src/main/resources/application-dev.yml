@@ -6,10 +6,10 @@ spring:
       naming:
         physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
   datasource:
-    url: jdbc:postgresql://192.168.110.40:5432/batch?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:mysql://localhost:3306/batch?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 522601
+    driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
     # Hikari 连接池配置
     # 最小空闲连接数量

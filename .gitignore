@@ -28,3 +28,6 @@ spring-batch-jpa/.gitignore
 spring-batch-jpa/.mvn/wrapper/maven-wrapper.jar
 spring-batch-jpa/.mvn/wrapper/MavenWrapperDownloader.java
 spring-batch-jpa/.mvn/
+.idea/
+spring-batch-jpa/spring-batch-jpa.iml
+spring-batch-jpa/target/
